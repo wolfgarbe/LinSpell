@@ -1,7 +1,7 @@
 # LinSpell
 Fast Spelling correction & Approximate string search
 
-The LinSpell spelling correction algorithm does not require edit candidate generation or specialized data structures like BK-tree or Norvig's algorithm. In most cases LinSpell ist faster and requires less memory compared to BK-tree or Norvig's algorithm.
+The LinSpell spelling correction algorithm does not require edit candidate generation or specialized data structures like BK-tree or Norvig's algorithm. In most cases LinSpell is faster and requires less memory compared to BK-tree or Norvig's algorithm.
 LinSpell is language and character set independent.
 
 <br>
