@@ -12,7 +12,7 @@ Version: 1.0
 Author: Wolf Garbe <wolf.garbe@faroo.com>
 Maintainer: Wolf Garbe <wolf.garbe@faroo.com>
 URL: https://github.com/wolfgarbe/linspell
-Description:<br>
+Description:
 https://medium.com/@wolfgarbe/symspell-vs-bk-tree-100x-faster-fuzzy-string-search-spell-checking-c4f10d80a078
 License:
 This program is free software; you can redistribute it and/or modify
