@@ -93,10 +93,9 @@ public static class LinSpell
                     }
                 }
             }
-
            
         }
-
+        
         return true;
     }
 
@@ -149,8 +148,7 @@ public static class LinSpell
             if (Math.Abs(kv.Key.Length - input.Length) > editDistanceMax2) continue;
 
             //if already ed1 suggestion, there can be no better suggestion with smaller count: no need to calculate damlev
-            if ((verbose == 0) && (suggestions.Count > 0) && (suggestions[0].distance == 1) && (kv.Value <= suggestions[0].count)) continue; //test
-
+            if ((verbose == 0) && (suggestions.Count > 0) && (suggestions[0].distance == 1) && (kv.Value <= suggestions[0].count)) continue; 
 
             int distance = EditDistance.DamerauLevenshteinDistance(input, kv.Key, editDistanceMax2); 
             //sometimes DamerauLevenshteinDistance returnes a distance > editDistanceMax
