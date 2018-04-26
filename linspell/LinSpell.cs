@@ -146,8 +146,6 @@ public static class LinSpell
 
         foreach (KeyValuePair<string, long> kv in dictionaryLinear)
         {
-            //umdrehen: suche dictionary in input liste
-
             if (Math.Abs(kv.Key.Length - input.Length) > editDistanceMax2) continue;
 
             //if already ed1 suggestion, there can be no better suggestion with smaller count: no need to calculate damlev
@@ -155,7 +153,7 @@ public static class LinSpell
 
 
             int distance = EditDistance.DamerauLevenshteinDistance(input, kv.Key, editDistanceMax2); 
-            //es wird trotz editDistanceMax in levensthein manchmal eine höhere editdistance ausgerechnet
+            //sometimes DamerauLevenshteinDistance returnes a distance > editDistanceMax
             if ((distance >= 0) && (distance <= editDistanceMax))
             {
                 //v0: clear if better ed or better ed+count; 
@@ -185,7 +183,5 @@ public static class LinSpell
         sort: if (verbose < 2) suggestions.Sort((x, y) => -x.count.CompareTo(y.count)); else suggestions.Sort((x, y) => 2 * x.distance.CompareTo(y.distance) - x.count.CompareTo(y.count));
         if ((verbose == 0) && (suggestions.Count > 1)) return suggestions.GetRange(0, 1); else return suggestions;
     }
-
-  
-
+    
 }
