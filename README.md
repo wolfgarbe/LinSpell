@@ -46,3 +46,7 @@ The [word frequency list](https://github.com/wolfgarbe/symspell/blob/master/word
 #### Blog Posts: Algorithm, Benchmarks, Applications
 [SymSpell vs. BK-tree: 100x faster fuzzy string search & spell checking](https://medium.com/@wolfgarbe/symspell-vs-bk-tree-100x-faster-fuzzy-string-search-spell-checking-c4f10d80a078)
 <br><br>
+
+---
+
+**LinSpell** is contributed by [**SeekStorm** - the high performance Search as a Service & search API](https://seekstorm.com)
