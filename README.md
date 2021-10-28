@@ -29,7 +29,7 @@ Enter without input:  Terminate the program
 
 ![Benchmark](https://cdn-images-1.medium.com/max/800/1*1l_5pOYU3AhoijKfVD-Qag.png "Benchmark")
 <br>
-[Benchmark 1](https://medium.com/@wolfgarbe/symspell-vs-bk-tree-100x-faster-fuzzy-string-search-spell-checking-c4f10d80a078)
+[Benchmark 1](https://seekstorm.com/blog/symspell-vs-bk-tree/)
 
 #### Applications
 
@@ -44,7 +44,7 @@ The [word frequency list](https://github.com/wolfgarbe/symspell/blob/master/word
 * [SCOWL - Spell Checker Oriented Word Lists](http://wordlist.aspell.net/)   [(License)](http://wordlist.aspell.net/scowl-readme/) : Ensures genuine English vocabulary    
 
 #### Blog Posts: Algorithm, Benchmarks, Applications
-[SymSpell vs. BK-tree: 100x faster fuzzy string search & spell checking](https://medium.com/@wolfgarbe/symspell-vs-bk-tree-100x-faster-fuzzy-string-search-spell-checking-c4f10d80a078)
+[SymSpell vs. BK-tree: 100x faster fuzzy string search & spell checking](https://seekstorm.com/blog/symspell-vs-bk-tree/)
 <br><br>
 
 ---
