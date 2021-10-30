@@ -9,11 +9,11 @@ LinSpell is language and character set independent.
 ```
 Copyright (C) 2017 Wolf Garbe
 Version: 1.0
-Author: Wolf Garbe <wolf.garbe@faroo.com>
-Maintainer: Wolf Garbe <wolf.garbe@faroo.com>
+Author: Wolf Garbe <wolf.garbe@seekstorm.com>
+Maintainer: Wolf Garbe <wolf.garbe@seekstorm.com>
 URL: https://github.com/wolfgarbe/linspell
 Description:
-https://medium.com/@wolfgarbe/symspell-vs-bk-tree-100x-faster-fuzzy-string-search-spell-checking-c4f10d80a078
+https://seekstorm.com/blog/symspell-vs-bk-tree/
 License:
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License, 
